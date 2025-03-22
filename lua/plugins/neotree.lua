@@ -58,17 +58,5 @@ return {
       end,
       desc = "File tree",
     },
-    -- {
-    --   "<leader>s",
-    --   function()
-    --     require("neo-tree.command").execute({
-    --       action = "show",
-    --       toggle = true,
-    --       source = "document_symbols",
-    --       position = "right",
-    --     })
-    --   end,
-    --   desc = "Symbols",
-    -- },
   },
 }
