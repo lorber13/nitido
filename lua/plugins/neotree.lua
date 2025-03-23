@@ -15,6 +15,12 @@ return {
     --   "filesystem",
     --   "document_symbols",
     -- },
+    filesystem = {
+      follow_current_file = {
+        enabled = true,
+        leave_dirs_open = false,
+      },
+    },
     window = {
       mappings = {
         ["<tab>"] = {
