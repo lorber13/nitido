@@ -115,6 +115,11 @@ return {
     require("lspconfig").pyright.setup({
       capabilities = capabilities,
     })
+
+    -- clangd
+    require("lspconfig").clangd.setup({
+      capabilities = capabilities,
+    })
     vim.lsp.inlay_hint.enable(true)
   end,
 }
