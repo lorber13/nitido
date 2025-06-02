@@ -5,7 +5,7 @@ return {
   dependencies = { "nvim-lua/plenary.nvim" },
   keys = {
     {
-      "<leader>s",
+      "<leader><leader>",
       "<cmd>Telescope live_grep<cr>",
       desc = "Global [S]earch",
     },

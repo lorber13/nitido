@@ -111,6 +111,10 @@ return {
       },
     })
 
+    require("lspconfig").ts_ls.setup({
+      capabilities = capabilities,
+    })
+
     -- pyright
     require("lspconfig").pyright.setup({
       capabilities = capabilities,
